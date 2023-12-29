@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html alt="ViDove">
+    <head>
+
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=DM+Sans">
+          <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <script>
+    window.onscroll = function() {myFunction()};
+
+    function myFunction() {
+      if (document.documentElement.scrollTop > 2000) {
+        document.getElementById("hpcontact").style.display = "initial";
+        document.getElementById("hphero").style.display = "none";
+        document.getElementById("hpheroimage_mobile_end").style.display = "initial";
+        document.getElementById("hpheroimage_mobile").style.display = "none";
+        // console.log('hello');
+      } else {
+        document.getElementById("hpcontact").style.display = "none";
+        document.getElementById("hphero").style.display = "initial";
+        document.getElementById("hpheroimage_mobile_end").style.display = "none";
+        document.getElementById("hpheroimage_mobile").style.display = "initial";
+      }
+    }
+    </script>
+    <body>
+
+        <div id="topnav">
+            <img class="topnavlogo" src="vidovelogo_white.png">
+            <a class="topnavtitle" href="index.html" style="text-decoration: none; color:white;">ViDove</a>
+            <div id="topnavoptionbar">
+                <a class="topnavoptions" href="team.html" style="text-decoration: none; color:black;">Team</a>
+                <!-- // need the actual demo link -->
+                <a class="topnavoptions" href="demo.html" style="text-decoration: none; color:black;">Demo</a>
+                <!-- // need the actual email address -->
+                <a class="topnavoptions" href="mailto:someone@example.com" style="text-decoration: none; color:black;">Contact</a>
+            </div>  
+        </div>
+
+        <img src="tempimage1.jpg" id="hpheroimage_desktop">
+        <img src="tempimage_tabloid.jpg" id="hpheroimage_tabloid">
+        <img src="tempimage_mobile.jpg" id="hpheroimage_mobile">
+        <img src="tempimage_mobile_end.jpg" id="hpheroimage_mobile_end">
+
+        <div id="hphero">
+            <div id="hpherotagline">Accurate. Versatile.<br>Human Language.</div>
+            <div class="hpbodycopy">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+            <div class="hpcta"><a href="contact.html" style="text-decoration: none; color:black;">Try It Out</a></div>
+        </div>
+
+        <div id="hpcontent">
+            <div id="hpmission">Understanding the challenges and complexities of video translation, we've integrated cutting-edge technology to assist content creators and broadcasters like us.</div>
+            <div class="grid-container">
+              <div class="item1">
+                  <div class="hpstorytitle">Open Source</div>
+                    <div class="hpstorybody">The product offers a flexible, customizable, and secure solution for automated video translation, featuring open-source code for transparency and scalability.</div>
+              </div>
+              <div class="item2">
+                  <div class="hpstorytitle">Multi-language Support</div>
+                <div class="hpstorybody">Transcribe and translate between Chinese, English, Japanese and 90+ languages.</div>
+              </div>
+              <div class="item3">
+                  <div class="hpstorytitle">Local Media Support</div>
+                <div class="hpstorybody">Supports local media files like MP4, MP3, AAC, M4A and more.</div>
+              </div>  
+              <div class="item4">
+                <div class="hpstorytitle">Domain Adaptation</div>
+                <div class="hpstorybody">Our pipeline is versatile and customizable, supporting specific fields like "StarCraft 2" with user-tailored dictionaries and model tuning for specialized, accurate translations.</div>
+              </div>
+              <div class="item5">
+                <div class="hpstorytitle">End-to-end Pipeline</div>
+                <div class="hpstorybody">Our platform offers a one-click video translation solution, enabling users to easily generate translations from a video link without complex setups or technical skills, making high-quality translation accessible to all.</div>
+              </div>
+              <div class="item6">
+                  <div class="hpstorytitle">Cross-platform</div>
+                <div class="hpstorybody">Works on Windows, macOS.</div>
+              </div> 
+            </div>
+
+            <img class="hpstorycolumn" src="howwedifferent.png">
+            <div class="hphowdif">
+                <div class="hpstorytitle">How Are We Different</div>
+                <div class="comparison">
+                    <div class="comparison1">鸽子组一般工作流程</div>
+                    <div class="comparison2">2人</div>
+                    <div class="comparison3">翻译</div>
+                    <div class="comparison4">立项至出成品</div>
+                </div>
+                <div class="comparison">
+                    <div class="comparison1"></div>
+                    <div class="comparison2">1-2人</div>
+                    <div class="comparison3">校对</div>
+                    <div class="comparison4">视成员空闲时间</div>
+                </div>
+                <div class="comparison" style="margin-bottom: 30px;">
+                    <div class="comparison1"></div>
+                    <div class="comparison2">1人</div>
+                    <div class="comparison3">时间轴+压线</div>
+                    <div class="comparison4">2-7天</div>
+                </div>
+                <div class="comparison">
+                    <div class="comparison1">鸽子组加急工作流程</div>
+                    <div class="comparison2">1人</div>
+                    <div class="comparison3">翻译</div>
+                    <div class="comparison4">立项至出成品</div>
+                </div>
+                <div class="comparison">
+                    <div class="comparison1"></div>
+                    <div class="comparison2">1人</div>
+                    <div class="comparison3">校对</div>
+                    <div class="comparison4">最快四小时</div>
+                </div>
+                <div class="comparison" style="margin-bottom: 30px;">
+                    <div class="comparison1"></div>
+                    <div class="comparison2">1人</div>
+                    <div class="comparison3">时间轴+压线</div>
+                    <div class="comparison4"></div>
+                </div>
+                <div class="comparison">
+                    <div class="comparison1" style="text-decoration: underline;text-decoration-color: blue;">Pigeon AI</div>
+                    <div class="comparison2" style="text-decoration: underline;text-decoration-color: blue;">1人</div>
+                    <div class="comparison3" style="text-decoration: underline;text-decoration-color: blue;">操作 Pigeon AI</div>
+                    <div class="comparison4" style="text-decoration: underline;text-decoration-color: blue;">约1小时</div>
+                </div>
+            </div>
+            <br><br><br><br>
+        </div>
+
+        <div id="hpplaceholder"></div>
+        <div id="hpcontact">
+            <!-- // need the actual email address -->
+            <div id="hpherotagline"><a href="mailto:someone@example.com" style="text-decoration: none; color:white;">Sounds interesting? Connect to try out!</a></div>
+            <div class="hpcta"><a href="contact.html" style="text-decoration: none; color:black;">Contact Us</a></div>
+        </div>
+    </body>
+</html>
