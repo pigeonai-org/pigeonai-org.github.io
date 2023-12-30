@@ -31,6 +31,7 @@ body{
         width: 8vw;
         margin-left: 16vw;
         margin-top: 2vw;
+        border-radius: 50%;
     }
     .teammembername{
         text-align: center;
@@ -71,6 +72,7 @@ body{
         width: 8vw;
         margin-left: 16vw;
         margin-top: 2vw;
+        border-radius: 50%;
     }
     .teammembername{
         text-align: center;
@@ -110,6 +112,7 @@ body{
         width: 6vw;
         margin-left: 17vw;
         margin-top: 1vw;
+        border-radius: 50%;
     }
     .teammembername{
         text-align: center;
