@@ -18,12 +18,13 @@
             }
             .topnavtitle{
                 font-size: 30px;
-                margin-right: 30vw;
+                margin-right: 10vw;
             }
             .topnavlogo{
                 width: 28px;
             }
             #topnavoptionbar{
+/*                display: inline-block;*/
                 float: right;
                 background: rgba(255, 255, 255, 0.64);
                 border-radius: 2vw;
@@ -57,11 +58,11 @@
             .hpcta{
                 border-radius: 5vw;
                 padding: 5px;
-                width: 200px;
+                width: 280px;
                 border: solid 1px;
                 text-align: center;
                 background-color: white;
-                font-size: 30px;
+                font-size: 42px;
                 color: #10145D;
                 margin: auto;
             }
@@ -123,7 +124,6 @@
             .comparison{
                 margin-left: 5vw;
                 font-size: 26px;
-/*                margin-bottom: 20px;*/
             }
             .comparison1{
                 width: 25vw;
@@ -138,6 +138,7 @@
                 display: inline-block;
             }
             .comparison4{
+                width: 13vw;
                 display: inline-block;
             }
             #hpplaceholder{
@@ -148,7 +149,7 @@
                 position: fixed;
                 min-height: 400px;
                 margin-left: 10vw;
-                top: 75vh;
+                top: 70vh;
                 width: 80vw;
                 text-align: center;
             }
