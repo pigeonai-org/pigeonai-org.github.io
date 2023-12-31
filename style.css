@@ -88,15 +88,15 @@
                 z-index: -5;
             }
             #hpherotagline{
-                font-size: 60px;
+                font-size: 80px;
                 margin-bottom: 3vw;
             }
             .hpbodycopy{
-                font-size: 28px;
+                font-size: 36px;
                 margin-bottom: 4vw;
             }
             #hpcontent{
-                margin-top: 77vh;
+                margin-top: 70vh;
                 background-color: #10145D;
                 background-image: linear-gradient(to bottom, #10145D, #111111);
             }
@@ -110,13 +110,13 @@
             }
             .hpstorytitle{
                 text-align: left;
-                font-size: 28px;
+                font-size: 36px;
                 margin-bottom: 1.5vw;
                 margin-left: 5vw;
              }
             .hpstorybody{
                 text-align: left;
-                font-size: 16px;
+                font-size: 24px;
                 margin-left: 5vw;
                 margin-right: 5vw;
             }
@@ -130,15 +130,14 @@
                 display: inline-block;
             }
             .comparison2{
-                width: 10vw;
+                width: 13vw;
                 display: inline-block;
             }
             .comparison3{
-                width: 20vw;
+                width: 25vw;
                 display: inline-block;
             }
             .comparison4{
-/*                width: 10vw;*/
                 display: inline-block;
             }
             #hpplaceholder{
@@ -448,13 +447,12 @@
                 height: 35vw;
             }
             .hpstorycolumn{
-                width: 40vw;
+                width: 30vw;
                 float: left;
-/*                height: 40vw;*/
                 display: inline-block;
                 margin-left: 8vw;
                 margin-top: 10vw;
-                margin-bottom: 10vw;
+                margin-right: 2vw;
             }
             .hpcta{
                 border-radius: 2vw;
@@ -534,11 +532,11 @@
                 font-size: 18px;
             }
             .comparison1{
-                width: 14vw;
+                width: 18vw;
                 display: inline-block;
             }
             .comparison2{
-                width: 6vw;
+                width: 8vw;
                 display: inline-block;
             }
             .comparison3{
@@ -595,6 +593,6 @@
             }
             .hphowdif{
                 margin-top: 10vw; 
-                height: 40vw;
+                height: 36vw;
             }
         }
