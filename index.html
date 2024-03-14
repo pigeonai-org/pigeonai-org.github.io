@@ -11,7 +11,7 @@
     window.onscroll = function() {myFunction()};
 
     function myFunction() {
-      if (document.documentElement.scrollTop > 2000) {
+      if (document.documentElement.scrollTop > 3000) {
         document.getElementById("hpcontact").style.display = "initial";
         document.getElementById("hphero").style.display = "none";
         document.getElementById("hpheroimage_mobile_end").style.display = "initial";
@@ -24,21 +24,31 @@
         document.getElementById("hpheroimage_mobile").style.display = "initial";
       }
     }
+
+    function hamburgerbar() {
+      var x = document.getElementById("topnavoptionbar");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
     </script>
     <body>
 
         <div id="topnav">
             <img class="topnavlogo" src="vidovelogo_white.png">
             <a class="topnavtitle" href="index.html" style="text-decoration: none; color:white;">ViDove</a>
+            <div id="topnavcontrol" onclick="hamburgerbar()">=</div>
             <div id="topnavoptionbar">
               <a class="topnavoptions" href="index.html" style="text-decoration: none; color:black;">Home</a>
               <a class="topnavoptions" href="team.html" style="text-decoration: none; color:black;">Team</a>
               <!-- // need the actual demo link -->
               <a class="topnavoptions" href="http://43.155.155.133:7860/" style="text-decoration: none; color:black;">Demo</a>
               <!-- // need the actual email address -->
-              <a class="topnavoptions" href="mailto:gggzmz@163.com" style="text-decoration: none; color:black;">Contact</a>
               <a class="topnavoptions" href="https://github.com/pigeonai-org/ViDove" style="text-decoration: none; color:black;">Github</a>
-              <a class="topnavoptions" href="https://starstarpigeon.larksuite.com/share/base/form/shrusiQMWAOmmNlOMUmJrm3qc1e" style="text-decoration: none; color:black;">Join Us</a>
+              <a class="topnavoptions" href="https://starstarpigeon.larksuite.com/share/base/form/shrusiQMWAOmmNlOMUmJrm3qc1e" style="text-decoration: none; color:black;">Join</a>
+              <a class="topnavoptions" href="mailto:gggzmz@163.com" style="text-decoration: none; color:black;">Contact</a>
           </div>  
         </div>
 
@@ -48,103 +58,118 @@
         <img src="tempimage_mobile_end.jpg" id="hpheroimage_mobile_end">
 
         <div id="hphero">
-            <div id="hpherotagline">Accurate. Versatile.<br>Human Language.</div>
+            <div id="hpherotagline">Accurate. Versatile.<br><a style="color:#6487DF">Human Language.</a></div>
             <div class="hpbodycopy">Introducing <b>ViDove</b>, a pioneering automated video transcribe and translation toolkit, meticulously crafted for professional domains.</div>
             <div class="hpbodycopy">Crafted by Pigeon.AI</div>
-            <div class="hpcta"><a href="http://43.155.155.133:7860/" style="text-decoration: none; color:black;">Try It Out</a></div>
+            <div class="hpcta"><a href="http://43.155.155.133:7860/" style="text-decoration: none; color:white;">Try It Out</a></div>
         </div>
 
         <div id="hpcontent">
-            <div id="hpmission">Understanding the challenges and complexities of video translation, we've integrated cutting-edge technology to assist content creators and broadcasters like us.</div>
+            <div id="hpmission">Understanding the challenges and complexities of video translation, we've integrated <a style="color:#6487DF">cutting-edge technology</a> to assist <a style="color:#6487DF">content creators</a> and <a style="color:#6487DF">broadcasters</a> like us.</div>
             <div class="grid-container">
               <div class="item1">
-                  <div class="hpstorytitle">Open Source</div>
+                    <img src="images/illustration1.png" class="illustration" style="text-align: left;">
+                    <div class="hpstorytitle">Open Source</div>
                     <div class="hpstorybody">The product offers a flexible, customizable, and secure solution for automated video translation, featuring open-source code for transparency and scalability.</div>
               </div>
               <div class="item2">
-                  <div class="hpstorytitle">Multi-language Support</div>
+                <img src="images/illustration2.png" class="illustration" style="text-align: left;">
+                <div class="hpstorytitle">Multi-language</div>
                 <div class="hpstorybody">Transcribe and translate between Chinese, English, Japanese and 90+ languages.</div>
               </div>
               <div class="item3">
-                  <div class="hpstorytitle">Local Media Support</div>
+                <img src="images/illustration3.png" class="illustration" style="text-align: left;">
+                <div class="hpstorytitle">Local Media</div>
                 <div class="hpstorybody">Supports local media files like MP4, MP3, AAC, M4A and more.</div>
               </div>  
               <div class="item4">
+                <img src="images/illustration4.png" class="illustration" style="text-align: left;">
                 <div class="hpstorytitle">Domain Adaptation</div>
                 <div class="hpstorybody">Our pipeline is versatile and customizable, supporting specific fields like "StarCraft 2" with user-tailored dictionaries and model tuning for specialized, accurate translations.</div>
               </div>
               <div class="item5">
+                <img src="images/illustration5.png" class="illustration" style="text-align: left;">
                 <div class="hpstorytitle">End-to-end Pipeline</div>
                 <div class="hpstorybody">Our platform offers a one-click video translation solution, enabling users to easily generate translations from a video link without complex setups or technical skills, making high-quality translation accessible to all.</div>
               </div>
               <div class="item6">
-                  <div class="hpstorytitle">Cross-platform</div>
+                <img src="images/illustration6.png" class="illustration" style="text-align: left;">
+                <div class="hpstorytitle">Cross-platform</div>
                 <div class="hpstorybody">Works on Windows, macOS.</div>
               </div> 
             </div>
 
-            <img class="hpstorycolumn" src="howwedifferent.png">
+            <div id="hpdifferent">What sets us apart - <br>we shortened the process by at least <a style="color:#6487DF">75%</a>. <br><br><br>For instance, to translate an episode longer than 2 hours,</div>
+
             <div class="hphowdif">
-                <div class="hpstorytitle">How Are We Different</div>
-                <div class="comparison" >
-                  <div class="comparison1" style="border-bottom: 3px solid white">Workflow</div>
-                  <div class="comparison2" style="border-bottom: 3px solid white">Members</div>
-                  <div class="comparison3" style="border-bottom: 3px solid white">Job</div>
-                  <div class="comparison4" style="border-bottom: 3px solid white">Time</div>
+                <div class="comparisontype1">
+                    <div class="comparison1">A subtitle group's <br><a style="color:#6487DF">general workflow</a> requires</div>
+                    <div class="comparison2"><div class="numberhighlight">2</div> Translator</div>
+                    <div class="comparison2"><div class="numberhighlight">2</div> Proofreaders</div>
+                    <div class="comparison2"><div class="numberhighlight">1</div> Time stamp & encoder</div>
+                    <div class="comparison2"><div class="numberhighlight">2-7 Ds</div> to complete the work</div>
                 </div>
-                <!-- <div style="border-top: 3px solid #bbb;"> -->
-                <div class="comparison">
-                    <div class="comparison1">Subtitile Group</div>
-                    <div class="comparison2">2</div>
-                    <div class="comparison3">Translate</div>
-                    <!-- <div class="comparison4">立项至出成品</div> -->
+
+                <div class="comparisontype1">
+                    <div class="comparison1">A subtitle group's <br><a style="color:#6487DF">urgent workflow</a> requires</div>
+                    <div class="comparison2"><div class="numberhighlight">1</div> Translator</div>
+                    <div class="comparison2"><div class="numberhighlight">1</div> Proofreaders</div>
+                    <div class="comparison2"><div class="numberhighlight">1</div> Time stamp & encoder</div>
+                    <div class="comparison2"><div class="numberhighlight">5 Hrs</div> to complete the work</div>
                 </div>
-                <div class="comparison">
-                    <div class="comparison1">General Workflow</div>
-                    <div class="comparison2">1-2</div>
-                    <div class="comparison3">Proofread</div>
-                    <div class="comparison4">2-7 days</div>
-                    <!-- <div class="comparison4">视成员空闲时间</div> -->
-                </div>
-                <div class="comparison" style="margin-bottom: 30px;">
-                    <div class="comparison1"></div>
-                    <div class="comparison2">1</div>
-                    <div class="comparison3">Time stamp & encode</div>
-                    
-                </div>
-                <div class="comparison">
-                    <div class="comparison1">Subtitile Group</div>
-                    <div class="comparison2">1</div>
-                    <div class="comparison3">Translate</div>
-                    <!-- <div class="comparison4">立项至出成品</div> -->
-                </div>
-                <div class="comparison">
-                    <div class="comparison1">Urgent Workflow</div>
-                    <div class="comparison2">1</div>
-                    <div class="comparison3">Proofread</div>
-                    <div class="comparison4">>4 hrs</div>
-                </div>
-                <div class="comparison" style="margin-bottom: 30px;">
-                    <div class="comparison1"></div>
-                    <div class="comparison2">1</div>
-                    <div class="comparison3">Time stamp & encode</div>
-                    <div class="comparison4"></div>
-                </div>
-                <div class="comparison">
-                    <div class="comparison1" style="text-decoration: underline;text-decoration-color: red;font-weight:800;">ViDove Workflow</div>
-                    <div class="comparison2" style="text-decoration: underline;text-decoration-color: red;font-weight:800;">1</div>
-                    <div class="comparison3" style="text-decoration: underline;text-decoration-color: red;font-weight:800;">Using ViDove</div>
-                    <div class="comparison4" style="text-decoration: underline;text-decoration-color: red;font-weight:800;font-size: larger; color: red;">~1 hr</div>
+
+                <div class="comparisontype2">
+                    <div class="comparison1">With <a style="color:#151515">ViDove</a>, you only need<br><br></div>
+                    <div class="comparison2"><div class="numberhighlight">1</div> Generalist</div>
+                    <div class="comparison2"><div class="numberhighlight">1 Hr</div> to complete the work</div>
                 </div>
             </div>
+            <br><br><br><br>
+
+            <div id="hptestimonial">Here are what our <a style="color:#6487DF">current users</a> say about us.</div>
+            <div class="testimonial">
+                <div class="testimonialcontent">
+                    <div class='testimonialcontentquote'>"Very 'human-like'. The result doesn't appear to be produced by an AI."</div>
+                    <img src="userprofileimage/image2.png" class='testimonialcontentimage'>
+                    <div class='testimonialcontentname'>FGA Subtitle Group</div>
+                </div>
+                <div class="testimonialcontent">
+                    <div class='testimonialcontentquote'>"ViDove has sparked a revolution in subtitle translation. By simplifying the cumbersome process, ViDove enables a single person to function as a subtitle team, thereby enhancing efficiency and bringing more fun and interesting content to the audience"</div>
+                    <img src="userprofileimage/image6.jpg" class='testimonialcontentimage'>
+                    <div class='testimonialcontentname'>StarPigeon Subtitle Group</div>
+                </div>
+                <div class="testimonialcontent">
+                    <div class='testimonialcontentquote'>"Vidove has achieved an end-to-end output from audio tracks to subtitles, allowing our members to <a style="text-decoration: line-through;">slack off</a> produce subtitles more quickly. We are very much looking forward to the exploration and application of future features including the dictionary."</div>
+                    <img src="userprofileimage/image4.jpeg" class='testimonialcontentimage'>
+                    <div class='testimonialcontentname'>YiZheLiLun Subtitle Group</div>
+                </div>
+                <div class="testimonialcontent">
+                    <div class='testimonialcontentquote'>"ViDove is an outstanding assistive tool for subtitle groups, streamlining the translation process for tasks that don't demand excessive rigor. It significantly shortens the time to produce an initial draft, offering commendable time efficiency and flawless manuscript quality. With minimal polishing and timeline adjustment, outputs are ready for release. Truly, it's a boon to the industry."</div>
+                    <img src="userprofileimage/image5.jpeg" class='testimonialcontentimage'>
+                    <div class='testimonialcontentname'>Joystuck Subtitle Group</div>
+                </div>
+                
+            </div>
+            
             <br><br><br><br>
         </div>
 
         <div id="hpplaceholder"></div>
         <div id="hpcontact">
             <!-- // need the actual email address -->
-            <div id="hpherotagline"><a href="mailto:someone@example.com" style="text-decoration: none; color:white;">Sounds interesting? Connect to try out!</a></div>
-            <div class="hpcta"><a href="mailto:gggzmz@163.com = Feedback&body = Message" style="text-decoration: none; color:black;">Contact Us</a></div>
+            <div id="hpherotagline"><a href="mailto:someone@example.com" style="text-decoration: none; color:white;">Sounds exciting? <br>Reach out to try!</a></div>
+            <div class="hpcta"><a href="mailto:gggzmz@163.com = Feedback&body = Message" style="text-decoration: none; color:white;">Contact Us</a></div>
         </div>
+<!-- 
+        <svg style="visibility: hidden; position: absolute;" width="0" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <defs>
+        <filter id="round">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur" />    
+            <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9" result="goo" />
+            <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+        </filter>
+    </defs>
+</svg> -->
+
     </body>
 </html>
